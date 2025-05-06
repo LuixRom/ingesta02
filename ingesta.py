@@ -4,10 +4,10 @@ import pandas as pd
 
 # Conexión a la base de datos MySQL
 conexion = pymysql.connect(
-    host="mysql_c",        # o cambia por tu host real si no es contenedor
+    host="mysql_c",        
     user="root",
     password="utec",
-    database="test"        # asegúrate de que exista esa base y tabla
+    database="test"        
 )
 
 # Leer registros de la tabla "employees"
